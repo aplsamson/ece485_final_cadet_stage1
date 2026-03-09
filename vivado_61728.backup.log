@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Mar  3 08:40:02 2026
+# Process ID         : 61728
+# Current directory  : C:/Users/Andres.Samson/Documents/ECE 485 Files/ece485_final_cadet_stage1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent60240 C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\ece485_final_cadet_stage1.xpr
+# Log file           : C:/Users/Andres.Samson/Documents/ECE 485 Files/ece485_final_cadet_stage1/vivado.log
+# Journal file       : C:/Users/Andres.Samson/Documents/ECE 485 Files/ece485_final_cadet_stage1\vivado.jou
+# Running On         : C26-5CG2151F2R
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16425 MB
+# Swap memory        : 14017 MB
+# Total Virtual      : 30443 MB
+# Available Virtual  : 6847 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Andres.Samson/Documents/ECE 485 Files/ece485_final_cadet_stage1/ece485_final_cadet_stage1.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/george.york/Documents/ECE485_code/ece485_final_cadet_stage1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'ece485_final_cadet_stage1.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\alu.vhdl:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\alu_control.vhdl:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\riscv_multicycle.vhdl:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\alu_control.vhdl:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\alu_control.vhdl:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\alu.vhdl:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\alu_control.vhdl:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\riscv_multicycle.vhdl:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\riscv_multicycle.vhdl:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andres.Samson\Documents\ECE 485 Files\ece485_final_cadet_stage1\riscv_multicycle.vhdl:]
+ERROR: [Common 17-180] Spawn failed: No error
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  3 10:44:49 2026...
